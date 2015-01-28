@@ -15,7 +15,7 @@ checked-in code.
 
 **Technology**
 
-The program was developed on Apple Mac OS X 10.1.1,
+The program was developed on Apple Mac OS X 10.10.2,
 using ruby version 2.0.0 and gem version 2.0.14.
 
 **Verify you have Ruby installed**
@@ -85,6 +85,7 @@ Run the program from the command line:
           --->Info Tech Spec
     z. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-** For More Information **
+**For More Information**
 
 Contact me via email at duckart@hawaii.edu
+
