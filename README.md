@@ -6,11 +6,11 @@ LDAP Ruby Demonstration Script
 **Overview**
 
 The program demonstrates how to do a simple LDAP search
-of the University of Hawaii LDAP service. 
+of the University of Hawaii LDAP service.
 
 Note: You must specify a password for your special DN.
 The example run of the program uses the 'bsar' special DN,
-but the value of the password has been removed from the 
+but the value of the password has been removed from the
 checked-in code.
 
 **Technology**
@@ -35,11 +35,11 @@ using ruby version 2.0.0 and gem version 2.0.14.
 
 **Running the program**
 
-Run the program from the command line: 
+Run the program from the command line:
 
-    $ ruby ldap-ex.rb 
+    $ ruby ldap-ex.rb
     a. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    DN: uhEntry=16d4fd0bffd6c91a4e8af1b6642c2cea7dddcc707,ou=People,dc=hawaii,dc=edu 
+    DN: uhEntry=16d4fd0bffd6c91a4e8af1b6642c2cea7dddcc707,ou=People,dc=hawaii,dc=edu
        dn:
           --->uhEntry=16d4fd0bffd6c91a4e8af1b6642c2cea7dddcc707,ou=People,dc=hawaii,dc=edu
        objectclass:
@@ -50,18 +50,18 @@ Run the program from the command line:
           --->top
           --->uhEduPerson
        uhuuid:
-          --->17958670
+          --->12345678
        cn:
-          --->Frank R Duckart
+          --->Francis R Duckart
        edupersonaffiliation:
           --->staff
        edupersonorgdn:
           --->uhsystem
        givenname:
-          --->Frank
+          --->Francis
        mail:
           --->duckart@hawaii.edu
-          --->frank.duckart@hawaii.edu
+          --->francis.duckart@hawaii.edu
        sn:
           --->Duckart
        uhacknowledgement:
@@ -71,16 +71,16 @@ Run the program from the command line:
        uid:
           --->duckart
        displayname:
-          --->Frank Duckart
+          --->Francis Duckart
        facsimiletelephonenumber:
-          --->(808) 956-2412
+          --->(808) 555-1212
        ou:
           --->University of Hawaii System
           --->Information Technology Services, Management Information Systems
        physicaldeliveryofficename:
           --->Info Tech Ctr, 6th Fl
        telephonenumber:
-          --->(808) 956-8904
+          --->(808) 555-1212
        title:
           --->Info Tech Spec
     z. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
